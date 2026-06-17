@@ -1,0 +1,22 @@
+.container-cards-characters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.section-characters {
+    background-color: var(--color-l-black);
+}
+
+.section-characters > h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color-white);
+}
+.section-characters > h2 span{
+    color: var(--color-primary);
+}
